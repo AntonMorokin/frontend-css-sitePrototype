@@ -1,0 +1,16 @@
+.footer {
+    color: var(--text-color_main);
+	font-family: var(--font-family_main);
+    font-size: 0.85em;
+    background-color: var(--background-color_main);
+    padding: 0.6em;
+	border-radius: var(--border-radius_main);
+	overflow: hidden;
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .footer {
+        margin: 0 9%;
+    }
+}

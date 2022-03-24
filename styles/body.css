@@ -1,0 +1,19 @@
+:root {
+	--background-color_main: #1a1400;
+	--text-color_main: lightgray;
+	--font-family_main: Arial, Helvetica, sans-serif;
+	--font-weight_main: 600;
+	--margin-bottom_main: 0.5em;
+	--padding_main: 1em;
+	--border-radius_main: 0.2em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url("../media/background.png") fixed no-repeat;
+	background-position: 24%;
+	background-size: cover;
+}

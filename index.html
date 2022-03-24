@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Block sizes example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./styles/body.css" rel="stylesheet" />
+        <link href="./styles/head-logo.css" rel="stylesheet" />
+        <link href="./styles/menu.css" rel="stylesheet" />
+        <link href="./styles/main.css" rel="stylesheet" />
+        <link href="./styles/footer.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <div class="head-logo"></div>
+            <nav class="menu">
+                <input class="menu__switcher-input" type="checkbox" name="switcher" id="switcher" />
+                <label class="menu__switcher" for="switcher">Menu</label>
+                <div class="menu__content menu__content_hover">
+                    <a href="#">Main</a>
+                    <a href="#">News</a>
+                    <a href="#">Mods</a>
+                    <a href="#">Forum</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <article class="main">
+                <aside class="main__adv">Advertising</aside>
+                <aside class="main__side-news">Interesting & News</aside>
+                <article class="main__news-post">
+                    <section class="main__news-post__content">News post</section>
+                    <article class="main__news-post__comments">Comments</article>
+                </article>
+            </article>
+        </main>
+        <footer>
+            <div class="footer">Anton Morokin &copy; 2022</div>
+        </footer>
+    </body>
+</html>
