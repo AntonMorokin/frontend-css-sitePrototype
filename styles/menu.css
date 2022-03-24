@@ -29,7 +29,8 @@
 	padding: var(--padding_main);
 }
 
-.menu__content_hover a:hover {
+.menu__content_hover a:hover
+, .menu__content_active a:active {
 	background-color: #cc9c00;
 	color: var(--background-color_main);
 }
