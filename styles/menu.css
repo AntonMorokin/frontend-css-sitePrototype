@@ -3,7 +3,7 @@
 	color: var(--text-color_main);
 	font-family: var(--font-family_main);
 	font-weight: var(--font-weight_main);
-	margin-bottom: var(--margin-bottom_main);
+	margin: var(--margin-bottom_main) 0;
 	border-radius: var(--border-radius_main);
 	overflow: hidden;
 	display: flex;
@@ -46,6 +46,15 @@
 
 @media only screen and (min-width: 600px) {
 	.menu {
+		max-width: 600px;
+        margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.menu {
+		max-width: none;
 		flex-direction: row;
 		margin-left: 7%;
 		margin-right: 7%;

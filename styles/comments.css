@@ -1,0 +1,27 @@
+.comment {
+    font-size: 0.8em;
+    font-weight: 300;
+    display: grid;
+    grid-template-columns: auto 4fr;
+    grid-template-rows: auto 1fr;
+    column-gap: 1em;
+    margin-bottom: 1em;
+}
+
+.comment__avatar {
+    grid-row: 1 / -1;
+    width: 100%;
+    max-width: 65px;
+}
+
+.comment__heading {
+    padding-bottom: 0.5em;
+}
+
+.comment__heading time {
+    font-weight: 600;
+}
+
+.comment__content {
+    margin: 0;
+}

@@ -1,0 +1,20 @@
+.main__recom h4 {
+    background-color: var(--background-color_main);
+    margin-bottom: var(--margin-bottom_main);
+    padding: var(--padding_main);
+	border-radius: var(--border-radius_main);
+}
+
+.main__recom .container {
+    background-color: var(--background-color_main);
+    margin-bottom: var(--margin-bottom_main);
+    padding: var(--padding_main);
+    border-radius: var(--border-radius_main);
+}
+
+@media only screen and (min-width: 992px) {
+    .main__recom {
+        width: 23%;
+        height: 100%;
+    }
+}

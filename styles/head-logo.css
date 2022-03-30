@@ -1,16 +1,28 @@
 .head-logo {
     height: 15vh;
-    background: url("../media/logo.png") no-repeat;
+    background: url("../media/logo.jpg") no-repeat;
 	background-position: center bottom;
 	background-size: cover;
     margin-bottom: var(--margin-bottom_main);
 	border-radius: var(--border-radius_main);
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     .head-logo {
-        height: 20vh;
         margin-left: 5%;
         margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 992px) and (orientation: landscape) {
+    .head-logo {
+        min-height: 30vh;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .head-logo {
+        max-height: none;
+        height: 20vh;
     }
 }

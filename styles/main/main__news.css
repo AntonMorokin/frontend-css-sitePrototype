@@ -1,0 +1,12 @@
+.main__news .container__heading_upper {
+    background-color: var(--background-color_main);
+    margin-bottom: var(--margin-bottom_main);
+    padding: var(--padding_main);
+	border-radius: var(--border-radius_main);
+}
+
+@media only screen and (min-width: 992px) {
+    .main__news {
+        width: 55%;
+    }
+}
